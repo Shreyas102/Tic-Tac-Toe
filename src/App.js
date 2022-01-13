@@ -9,7 +9,9 @@ function App() {
   console.log(matrix);
 
   return (
+    
     <div className={`app ${currentPlayer ? "light" : "dark"}`}>
+      <div className="heading">TIC-TAC-TOE</div>
       <h2>Player {currentPlayer ? "1" : "2"}</h2>
       <div className="container">
         <div className="row">

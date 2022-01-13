@@ -5,9 +5,10 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  font-size: 3rem;
+  font-size: 2rem;
   transition: 300ms;
 }
+
 
 .container {
   display: flex;
@@ -29,11 +30,7 @@
   height: 100px;
 }
 
-.button-1 {
-  padding: 1rem;
-  border-radius: 0.25rem;
-  background-color: hsla(0, 0%, 100%, 0.75);
-}
+
 
 button > * {
   font-size: 32pt;
@@ -47,4 +44,14 @@ button > * {
 .dark {
   background-color: hsl(117, 53%, 27%);
   color: rgb(189, 218, 122);
+}
+.heading{
+  font-size: 3rem;
+  font-weight: bolder;
+  
+ }
+ .button-1 {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background-color: hsla(0, 0%, 100%, 0.75);
 }
