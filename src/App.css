@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 3rem;
+  transition: 300ms;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 7px;
+  width: 100px;
+  height: 100px;
+}
+
+.button-1 {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+button > * {
+  font-size: 32pt;
+}
+
+.light {
+  background-color: rgb(189, 218, 122);
+  color: hsl(117, 53%, 27%);
+}
+
+.dark {
+  background-color: hsl(117, 53%, 27%);
+  color: rgb(189, 218, 122);
+}
